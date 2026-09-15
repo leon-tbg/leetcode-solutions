@@ -1,7 +1,7 @@
 package p0125_valid_palindrome;
 
+// Runtime: O(n), Memory: O(1)
 class Solution {
-    // Runtime: O(n), Memory: O(1)
     public boolean isPalindrome(String s) {
         int i = 0;
         int j = s.length() - 1;

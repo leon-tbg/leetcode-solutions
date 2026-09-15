@@ -3,8 +3,8 @@ package p0020_valid_parentheses;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+// Runtime: O(n), Memory: O(n)
 class Solution {
-    // Runtime: O(n), Memory: O(n)
     public boolean isValid(String s) {
         Deque<Character> stack = new ArrayDeque<>();
 

@@ -1,7 +1,7 @@
 package p0088_merge_sorted_array;
 
+// Runtime: O(m + n), Memory: O(1)
 class Solution {
-    // Runtime: O(m + n), Memory: O(1)
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m + n - 1;
 
