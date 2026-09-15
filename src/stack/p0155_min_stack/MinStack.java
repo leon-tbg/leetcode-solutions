@@ -1,4 +1,4 @@
-package p0155_min_stack;
+package stack.p0155_min_stack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

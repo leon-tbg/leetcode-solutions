@@ -1,4 +1,4 @@
-package p0347_top_k_frequent_elements;
+package arrays_hashing.p0347_top_k_frequent_elements;
 
 import java.util.Comparator;
 import java.util.HashMap;

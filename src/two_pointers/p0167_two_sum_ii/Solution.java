@@ -1,4 +1,4 @@
-package p0167_two_sum_ii;
+package two_pointers.p0167_two_sum_ii;
 
 // Runtime: O(n), Memory: O(1)
 class Solution {

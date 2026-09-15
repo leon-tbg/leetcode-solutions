@@ -1,4 +1,4 @@
-package p0242_valid_anagram;
+package arrays_hashing.p0242_valid_anagram;
 
 // Runtime: O(n), Memory: O(1)
 class Solution {

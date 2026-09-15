@@ -1,4 +1,4 @@
-package p0125_valid_palindrome;
+package two_pointers.p0125_valid_palindrome;
 
 // Runtime: O(n), Memory: O(1)
 class Solution {

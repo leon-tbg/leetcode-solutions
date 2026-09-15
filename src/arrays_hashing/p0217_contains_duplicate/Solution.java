@@ -1,4 +1,4 @@
-package p0217_contains_duplicate;
+package arrays_hashing.p0217_contains_duplicate;
 
 import java.util.HashSet;
 

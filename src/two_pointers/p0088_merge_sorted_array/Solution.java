@@ -1,4 +1,4 @@
-package p0088_merge_sorted_array;
+package two_pointers.p0088_merge_sorted_array;
 
 // Runtime: O(m + n), Memory: O(1)
 class Solution {

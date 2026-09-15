@@ -1,4 +1,4 @@
-package p0020_valid_parentheses;
+package stack.p0020_valid_parentheses;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
