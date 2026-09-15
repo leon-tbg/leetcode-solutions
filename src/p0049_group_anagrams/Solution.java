@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 class Solution {
-    // Time: O(n * k * log k), Space: O(n * k) | n = number of strings, k = max length of a string
+    // Runtime: O(n * k * log k), Memory: O(n * k) | n = number of strings, k = max length of a string
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String, List<String>> map = new HashMap<>();
 

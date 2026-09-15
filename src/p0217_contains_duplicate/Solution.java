@@ -3,7 +3,7 @@ package p0217_contains_duplicate;
 import java.util.HashSet;
 
 class Solution {
-    // Time: O(n), Space: O(n)
+    // Runtime: O(n), Memory: O(n)
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
 

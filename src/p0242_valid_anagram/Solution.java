@@ -1,7 +1,7 @@
 package p0242_valid_anagram;
 
 class Solution {
-    // Time: O(n), Space: O(1)
+    // Runtime: O(n), Memory: O(1)
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
 
