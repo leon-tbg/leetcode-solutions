@@ -8,7 +8,7 @@ class Solution {
 
         for (int num : nums) {
             if (count == 0) {
-                count = num;
+                candidate = num;
             }
 
             count += candidate == num ? 1 : -1;
