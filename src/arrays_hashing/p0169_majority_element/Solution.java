@@ -1,0 +1,19 @@
+package arrays_hashing.p0169_majority_element;
+
+// Runtime: O(n), Memory: O(1)
+class Solution {
+    public int majorityElement(int[] nums) {
+        int candidate = nums[0];
+        int count = 0;
+
+        for (int num : nums) {
+            if (count == 0) {
+                count = num;
+            }
+
+            count += candidate == num ? 1 : -1;
+        }
+
+        return candidate;
+    }
+}
