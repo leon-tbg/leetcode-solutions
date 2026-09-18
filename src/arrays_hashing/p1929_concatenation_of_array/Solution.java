@@ -1,7 +1,7 @@
 package arrays_hashing.p1929_concatenation_of_array;
 
-// Runtime: O(n), Memory: O(n)
 class Solution {
+    // Runtime: O(n), Memory: O(n)
     public int[] getConcatenation(int[] nums) {
         int[] ans = new int[nums.length * 2];
 

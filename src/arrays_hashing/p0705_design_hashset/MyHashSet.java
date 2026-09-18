@@ -2,8 +2,8 @@ package arrays_hashing.p0705_design_hashset;
 
 import java.util.LinkedList;
 
-// Runtime: O(1), Memory: O(size + n)
 class MyHashSet {
+    // Runtime: O(1), Memory: O(size + n) | for all methods
     private LinkedList<Integer>[] buckets;
     private final int size = 1000;
 

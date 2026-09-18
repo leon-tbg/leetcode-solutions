@@ -1,7 +1,7 @@
 package arrays_hashing.p0027_remove_element;
 
-// Runtime: O(n), Memory: O(1)
 class Solution {
+    // Runtime: O(n), Memory: O(1)
     public int removeElement(int[] nums, int val) {
         int k = 0;
 

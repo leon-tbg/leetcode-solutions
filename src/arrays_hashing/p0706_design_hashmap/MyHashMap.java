@@ -2,9 +2,8 @@ package arrays_hashing.p0706_design_hashmap;
 
 import java.util.LinkedList;
 
-// Runtime: Best: O(1) Worst: O(n), Memory: O(size + n)
 class MyHashMap {
-    class Entry {
+    private static class Entry {
         int key, value;
 
         Entry(int key, int value) {
@@ -13,6 +12,7 @@ class MyHashMap {
         }
     }
 
+    // Runtime: Best: O(1) Worst: O(n), Memory: O(size + n) | for all methods
     private LinkedList<Entry>[] buckets;
     private final int size = 1000;
 

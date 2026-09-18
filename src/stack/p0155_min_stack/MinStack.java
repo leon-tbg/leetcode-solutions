@@ -3,8 +3,8 @@ package stack.p0155_min_stack;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-// Runtime: O(1), Memory: O(1) | for all methods
 class MinStack {
+    // Runtime: O(1), Memory: O(1) | for all methods
     private Deque<Integer> stack;
     private Deque<Integer> minStack;
 

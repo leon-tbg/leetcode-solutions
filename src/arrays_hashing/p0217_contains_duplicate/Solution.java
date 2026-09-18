@@ -2,8 +2,8 @@ package arrays_hashing.p0217_contains_duplicate;
 
 import java.util.HashSet;
 
-// Runtime: O(n), Memory: O(n)
 class Solution {
+    // Runtime: O(n), Memory: O(n)
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
 

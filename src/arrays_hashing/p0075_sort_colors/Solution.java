@@ -1,7 +1,7 @@
 package arrays_hashing.p0075_sort_colors;
 
-// Runtime: O(n), Memory: O(1)
 class Solution {
+    // Runtime: O(n), Memory: O(1)
     public void sortColors(int[] nums) {
         int left = 0;
         int mid = 0;

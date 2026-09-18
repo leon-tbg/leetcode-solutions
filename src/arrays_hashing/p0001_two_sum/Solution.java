@@ -2,8 +2,8 @@ package arrays_hashing.p0001_two_sum;
 
 import java.util.HashMap;
 
-// Runtime: O(n), Memory: O(n)
 class Solution {
+    // Runtime: O(n), Memory: O(n)
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
 

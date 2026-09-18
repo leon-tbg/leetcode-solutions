@@ -1,7 +1,7 @@
 package arrays_hashing.p0912_sort_an_array;
 
-// Runtime: O(n * log n), Memory: O(n)
 class Solution {
+    // Runtime: O(n * log n), Memory: O(n)
     public int[] sortArray(int[] nums) {
         mergeSort(nums, 0, nums.length - 1);
 
