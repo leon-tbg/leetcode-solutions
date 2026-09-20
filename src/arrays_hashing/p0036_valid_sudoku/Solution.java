@@ -1,6 +1,5 @@
 package arrays_hashing.p0036_valid_sudoku;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 class Solution {
