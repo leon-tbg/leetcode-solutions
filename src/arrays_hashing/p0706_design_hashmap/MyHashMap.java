@@ -12,7 +12,6 @@ class MyHashMap {
         }
     }
 
-    // Runtime: Best: O(1) Worst: O(n), Memory: O(size + n) | for all methods
     private LinkedList<Entry>[] buckets;
     private final int size = 1000;
 

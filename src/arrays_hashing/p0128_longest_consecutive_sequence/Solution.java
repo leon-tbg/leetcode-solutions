@@ -69,7 +69,6 @@ class Solution {
 
     }
 
-    // Runtime: O(n) Memory: O(n)
     public int longestConsecutive(int[] nums) {
         HashMap<Integer, Integer> index = new HashMap<>();
 

@@ -1,7 +1,6 @@
 package arrays_hashing.p0303_range_sum_query_immutable;
 
 class NumArray {
-    // Runtime: O(n), Memory: O(n)
     private final int[] prefixSum;
 
     public NumArray(int[] nums) {
@@ -19,7 +18,6 @@ class NumArray {
         return prefixSum;
     }
 
-    // Runtime: O(1), Memory: O(1)
     public int sumRange(int left, int right) {
         return prefixSum[right + 1] - prefixSum[left];
     }

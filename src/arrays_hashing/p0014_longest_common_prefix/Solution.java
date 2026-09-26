@@ -1,7 +1,6 @@
 package arrays_hashing.p0014_longest_common_prefix;
 
 class Solution {
-    // Runtime: O(n * m), Memory: O(m) | m = length of longest string
     public String longestCommonPrefix(String[] strs) {
         String prefix = strs[0];
 

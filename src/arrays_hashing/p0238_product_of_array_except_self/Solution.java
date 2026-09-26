@@ -2,7 +2,6 @@ package arrays_hashing.p0238_product_of_array_except_self;
 
 class Solution {
     public int[] productExceptSelf(int[] nums) {
-
         int[] prefixProduct = new int[nums.length + 1];
         prefixProduct[0] = 1;
         int[] suffixProduct = new int[nums.length + 1];

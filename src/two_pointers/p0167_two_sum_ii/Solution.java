@@ -1,7 +1,6 @@
 package two_pointers.p0167_two_sum_ii;
 
 class Solution {
-    // Runtime: O(n), Memory: O(1)
     public int[] twoSum(int[] numbers, int target) {
         int left = 0;
         int right = numbers.length - 1;

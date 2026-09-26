@@ -72,17 +72,14 @@ class NumArray {
 
     private final SegmentTree tree;
 
-    // Runtime O(n), Memory: O(n)
     public NumArray(int[] nums) {
         tree = new SegmentTree(nums);
     }
 
-    // Runtime O(log n), Memory: O(log n)
     public void update(int index, int val) {
         tree.update(index, val);
     }
 
-    // Runtime: O(log n), Memory: O(log n)
     public int sumRange(int left, int right) {
         return tree.query(left, right);
     }

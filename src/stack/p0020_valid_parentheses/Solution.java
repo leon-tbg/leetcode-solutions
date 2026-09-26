@@ -4,7 +4,6 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 class Solution {
-    // Runtime: O(n), Memory: O(n)
     public boolean isValid(String s) {
         Deque<Character> stack = new ArrayDeque<>();
 

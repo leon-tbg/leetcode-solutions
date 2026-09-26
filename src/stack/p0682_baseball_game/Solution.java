@@ -4,7 +4,6 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 class Solution {
-    // Runtime: O(n), Memory: O(n)
     public int calPoints(String[] operations) {
         Deque<Integer> stack = new ArrayDeque<>();
         int score = 0;

@@ -3,7 +3,6 @@ package arrays_hashing.p0036_valid_sudoku;
 import java.util.HashSet;
 
 class Solution {
-    // Runtime: O(n^2), Memory: O(1)
     public boolean isValidSudoku(char[][] board) {
         HashSet<Character> row = new HashSet<>();
         HashSet<Character> col = new HashSet<>();

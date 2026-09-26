@@ -1,7 +1,6 @@
 package two_pointers.p0125_valid_palindrome;
 
 class Solution {
-    // Runtime: O(n), Memory: O(1)
     public boolean isPalindrome(String s) {
         int i = 0;
         int j = s.length() - 1;
