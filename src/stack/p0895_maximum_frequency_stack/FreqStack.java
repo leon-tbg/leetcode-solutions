@@ -1,4 +1,4 @@
-package stack.p0895;
+package stack.p0895_maximum_frequency_stack;
 
 import java.util.*;
 
